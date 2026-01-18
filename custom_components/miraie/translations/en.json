@@ -21,7 +21,19 @@
     "entity": {
         "climate": {
             "miraie": {
+                "state": {
+                    "fan_only": "Fan"
+                },
                 "state_attributes": {
+                    "fan_mode": {
+                        "state": {
+                            "auto": "Auto",
+                            "off": "Quiet",
+                            "low": "Low",
+                            "medium": "Medium",
+                            "high": "High"
+                        }
+                    },
                     "preset_mode": {
                         "state": {
                             "clean": "Clean",
@@ -33,6 +45,28 @@
                             "cv 55": "55%",
                             "cv 40": "40%",
                             "cv 0": "Off"
+                        }
+                    },
+                    "swing_mode": {
+                        "name": "Vertical Swing",
+                        "state": {
+                            "V0": "Full",
+                            "V1": "Top",
+                            "V2": "Top-Mid",
+                            "V3": "Center",
+                            "V4": "Bottom-Mid",
+                            "V5": "Bottom"
+                        }
+                    },
+                    "swing_horizontal_mode": {
+                        "name": "Horizontal Swing",
+                        "state": {
+                            "H0": "Full",
+                            "H1": "Left",
+                            "H2": "Left-Mid",
+                            "H3": "Center",
+                            "H4": "Right-Mid",
+                            "H5": "Right"
                         }
                     }
                 }

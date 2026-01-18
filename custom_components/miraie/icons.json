@@ -3,24 +3,33 @@
     "climate": {
       "miraie": {
         "state_attributes": {
+          "fan_mode": {
+            "state": {
+              "auto": "mdi:fan-auto",
+              "off": "mdi:fan-off",
+              "low": "mdi:fan-speed-1",
+              "medium": "mdi:fan-speed-2",
+              "high": "mdi:fan-speed-3"
+            }
+          },
           "swing_mode": {
             "state": {
-              "V0": "mdi:swap-vertical",
-              "V1": "mdi:arrow-up-thin",
-              "V2": "mdi:format-vertical-align-top",
-              "V3": "mdi:format-vertical-align-center",
-              "V4": "mdi:format-vertical-align-bottom",
-              "V5": "mdi:arrow-down-thin"
+              "V0": "mdi:arrow-up-down",
+              "V1": "mdi:arrow-up",
+              "V2": "mdi:arrow-top-right",
+              "V3": "mdi:arrow-right",
+              "V4": "mdi:arrow-bottom-right",
+              "V5": "mdi:arrow-down"
             }
           },
           "swing_horizontal_mode": {
             "state": {
-              "H0": "mdi:swap-horizontal",
-              "H1": "mdi:format-horizontal-align-center",
-              "H2": "mdi:arrow-left-thin",
-              "H3": "mdi:arrow-expand-left",
-              "H4": "mdi:arrow-expand-right",
-              "H5": "mdi:arrow-right-thin"
+              "H0": "mdi:arrow-left-right",
+              "H1": "mdi:arrow-left",
+              "H2": "mdi:arrow-bottom-left",
+              "H3": "mdi:arrow-down",
+              "H4": "mdi:arrow-bottom-right",
+              "H5": "mdi:arrow-right"
             }
           },
           "preset_mode": {
